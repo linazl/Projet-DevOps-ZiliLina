@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        docker { image 'maven:3.9.4-jdk-11' }
+    }
 
     stages {
         stage('Checkout') {
