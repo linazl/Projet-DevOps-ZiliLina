@@ -16,18 +16,17 @@ pipeline {
             }
         }
 
-        stage('Archive') {
-            steps {
-                archiveArtifacts artifacts: 'hello-devops/target/*.jar', allowEmptyArchive: true
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo "Déploiement local ou cloud (optionnel)"
-            }
-        }
+       stage('Archive') {
+    steps {
+        archiveArtifacts artifacts: 'hello-devops/target/*.jar', allowEmptyArchive: true
     }
+}
+
+stage('Deploy') {
+    steps {
+        echo "Application déployée avec succès !"
+    }
+}
 
     post {
         success {
