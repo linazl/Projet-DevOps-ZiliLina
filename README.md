@@ -87,6 +87,8 @@ Une tentative d’intégration a été effectuée et documentée.
 
 <img width="1699" height="1128" alt="image" src="https://github.com/user-attachments/assets/325e7855-2fdd-4aee-bc0b-af0bb1f4d967" />
 
+<img width="1758" height="913" alt="Screenshot 2026-01-11 120618" src="https://github.com/user-attachments/assets/d3afbac7-3d7e-47de-887d-456dcc1e51ad" />
+
 
 ---
 
