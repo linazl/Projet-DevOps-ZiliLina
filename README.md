@@ -74,11 +74,19 @@ Le pipeline Jenkins automatise :
 
 ---
 
-## **🔹 Slack (optionnel)**
+## 🔹 Livraison – Intégration Slack
 
-J’ai rejoint Slack pour le projet mais **la notification n’a pas été testée**.
+Dans le cadre de la phase de livraison, une intégration Slack a été prévue afin d’envoyer des notifications automatiques depuis Jenkins.
 
-<img width="1758" height="913" alt="image" src="https://github.com/user-attachments/assets/5ef952c1-e3ac-41eb-8f3a-4139a5c18ed2" />
+Cependant, lors de la configuration, l’ajout d’intégrations Slack (Incoming Webhooks / Jenkins notifications) a été bloqué en raison de la fin de la période d’essai gratuite de Slack.
+
+Malgré cette limitation, le canal Slack **devops-grp4** a bien été rejoint et identifié comme canal de notification du projet.  
+Une tentative d’intégration a été effectuée et documentée.
+
+📸 **Message Slack indiquant la fin de l’essai gratuit et le blocage des intégrations**
+
+<img width="1699" height="1128" alt="image" src="https://github.com/user-attachments/assets/325e7855-2fdd-4aee-bc0b-af0bb1f4d967" />
+
 
 ---
 
